@@ -6,7 +6,8 @@
   "scripts": {
     "clean-data": "npx ts-node src/clean-data.ts",
     "build-data": "npx ts-node src/build-data.ts",
-    "build": "tsc"
+		"build": "tsc",
+		"server": "node ./built/server"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
     "emoji-datasource-facebook": "6.0.0",
     "emoji-datasource-google": "6.0.0",
     "emoji-datasource-twitter": "6.0.0",
+    "fastify": "^3.8.0",
+    "fastify-static": "^3.3.0",
     "glob": "^7.1.6",
     "rmfr": "^2.0.0",
     "ts-node": "^9.0.0",
