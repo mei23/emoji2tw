@@ -20,7 +20,7 @@ fastify.setNotFoundHandler((request, reply) => {
 	reply.header('Cache-Control', 'public, max-age=60').send('Not Found');
 });
 
-const port = process.env.PORT ? Number(process.env.PORT) : 3310;
+const port = process.env.PORT ? Number(process.env.PORT) : 3510;
 
 fastify.listen(port, '0.0.0.0', (err, address) => {
 	if (err) {
