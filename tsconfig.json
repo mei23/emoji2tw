@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"noEmitOnError": true,
+		"noImplicitAny": false,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noFallthroughCasesInSwitch": true,
+		"experimentalDecorators": true,
+		"sourceMap": false,
+		"target": "es2017",
+		"module": "commonjs",
+		"removeComments": false,
+		"noLib": false,
+		"esModuleInterop": true,
+		"outDir": "built",
+		"rootDir": "src"
+	},
+	"compileOnSave": false,
+	"include": [
+		"./src/**/*.ts"
+	]
+}
